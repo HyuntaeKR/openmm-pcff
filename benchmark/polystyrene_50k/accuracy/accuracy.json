@@ -1,0 +1,133 @@
+{
+  "n_atoms": 50096,
+  "box_lengths_angstrom": [
+    80.0813145343465,
+    80.0813145343465,
+    80.0813145343465
+  ],
+  "precision_relative_rms": {
+    "bond": 7.295178077389026e-05,
+    "angle": 4.330002286876803e-05,
+    "bond_bond": 7.234499161461928e-05,
+    "bond_angle": 5.716696914658656e-05,
+    "torsion": 3.147479550933771e-05,
+    "middle_bond_torsion": 4.414876617351198e-06,
+    "end_bond_torsion": 7.385760847778513e-06,
+    "angle_torsion": 1.59479413626598e-05,
+    "angle_angle_torsion": 3.223997981230247e-05,
+    "bond_bond_13": 6.866472365991838e-05,
+    "wilson": 3.4534620181507174e-05,
+    "angle_angle": 2.1814691749041154e-05,
+    "lj_9_6": 1.2065285774996051e-05,
+    "coulomb": 0.00018644106534993513,
+    "total": 7.984056317185389e-05
+  },
+  "precision_zero_groups_largest_cuda_force": {},
+  "precision_criterion_met": false,
+  "cuda_double_vs_reference_relative_rms": {
+    "coulomb": 0.00018638688528582143,
+    "total": 3.995642424722882e-06
+  },
+  "total_rms_force_kcal_mol_angstrom": 36.051320935732235,
+  "coulomb_rms_force_kcal_mol_angstrom": 0.7665707983032719,
+  "coulomb_errors": {
+    "lammps pppm/cg 0.001": {
+      "rms_error_kcal_mol_angstrom": 0.13161489929736675,
+      "relative_to_coulomb_rms": 0.17169307725872576
+    },
+    "lammps pppm 0.001": {
+      "rms_error_kcal_mol_angstrom": 0.13161489929736683,
+      "relative_to_coulomb_rms": 0.17169307725872587
+    },
+    "openmm pme 0.05": {
+      "rms_error_kcal_mol_angstrom": 0.052062358167481705,
+      "relative_to_coulomb_rms": 0.06791591628942369,
+      "alpha_per_nm_and_grid": [
+        1.5972917151422592,
+        16,
+        16,
+        16
+      ]
+    },
+    "openmm pme 0.02": {
+      "rms_error_kcal_mol_angstrom": 0.02224960745520331,
+      "relative_to_coulomb_rms": 0.02902485654873705,
+      "alpha_per_nm_and_grid": [
+        1.8885500820990542,
+        24,
+        24,
+        24
+      ]
+    },
+    "openmm pme 0.01": {
+      "rms_error_kcal_mol_angstrom": 0.012332818544170981,
+      "relative_to_coulomb_rms": 0.016088296829814608,
+      "alpha_per_nm_and_grid": [
+        2.0819825958831335,
+        28,
+        28,
+        28
+      ]
+    },
+    "openmm pme 0.005": {
+      "rms_error_kcal_mol_angstrom": 0.0062039231560854615,
+      "relative_to_coulomb_rms": 0.00809308568734581,
+      "alpha_per_nm_and_grid": [
+        2.2589116066203654,
+        35,
+        35,
+        35
+      ]
+    },
+    "openmm pme 0.002": {
+      "rms_error_kcal_mol_angstrom": 0.002488139626366426,
+      "relative_to_coulomb_rms": 0.0032458053866305306,
+      "alpha_per_nm_and_grid": [
+        2.473451482414491,
+        48,
+        48,
+        48
+      ]
+    },
+    "openmm pme 0.001": {
+      "rms_error_kcal_mol_angstrom": 0.0012794016606606437,
+      "relative_to_coulomb_rms": 0.0016689934752177774,
+      "alpha_per_nm_and_grid": [
+        2.6241174426504563,
+        56,
+        56,
+        56
+      ]
+    },
+    "openmm pme 0.0005": {
+      "rms_error_kcal_mol_angstrom": 0.000649005650251316,
+      "relative_to_coulomb_rms": 0.0008466349770795149,
+      "alpha_per_nm_and_grid": [
+        2.7665904051352275,
+        70,
+        70,
+        70
+      ]
+    },
+    "openmm pme 0.0002": {
+      "rms_error_kcal_mol_angstrom": 0.0002649509380927938,
+      "relative_to_coulomb_rms": 0.0003456313998383923,
+      "alpha_per_nm_and_grid": [
+        2.9443680237226704,
+        90,
+        90,
+        90
+      ]
+    },
+    "openmm pme 0.0001": {
+      "rms_error_kcal_mol_angstrom": 0.00013547084695935942,
+      "relative_to_coulomb_rms": 0.00017672320320472764,
+      "alpha_per_nm_and_grid": [
+        3.0720242798657167,
+        105,
+        105,
+        105
+      ]
+    }
+  }
+}

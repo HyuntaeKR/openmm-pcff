@@ -1,0 +1,17 @@
+{
+  "ewald_error_tolerance": 0.0005,
+  "merged_cuda_double_vs_per_sub_term_reference_relative_rms": {
+    "all bonded": 4.605718984842414e-07,
+    "bonded + lj": 4.6402415066174027e-07
+  },
+  "merged_cuda_mixed_vs_double_relative_rms": {
+    "ebond": 7.294925078314694e-05,
+    "eangle": 3.845790281672041e-05,
+    "edihed": 1.3643884537054794e-05,
+    "eimp": 3.430579715457949e-05,
+    "evdwl": 1.2063009271960134e-05,
+    "ecoul+elong": 5.748629120381465e-06,
+    "total": 7.973868186617882e-05
+  },
+  "precision_criterion_met": true
+}

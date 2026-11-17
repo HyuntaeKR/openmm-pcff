@@ -1,0 +1,12 @@
+# Run-0 forces for the Coulomb accuracy check, written by scripts/check_gpu_accuracy.py
+units		real
+atom_style	full
+boundary	p p p
+read_data	../../relax/relaxed.data
+include		../../polystyrene_50k.params
+kspace_style	pppm/cg 0.001
+thermo_style	custom pe ebond eangle edihed eimp evdwl ecoul elong etail press
+thermo_modify	format float %.15g
+dump		forces all custom 1 forces.dump id fx fy fz
+dump_modify	forces format float %.15g sort id
+run		0

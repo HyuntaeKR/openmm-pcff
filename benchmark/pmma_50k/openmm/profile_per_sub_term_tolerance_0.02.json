@@ -1,0 +1,33 @@
+{
+  "ewald_error_tolerance": 0.02,
+  "pme_alpha_per_nm_and_grid": [
+    1.8885500820990542,
+    24,
+    24,
+    24
+  ],
+  "n_evaluations": 2000,
+  "ms_per_evaluation": {
+    "bond": 0.029190853470936418,
+    "angle": 0.04259342304430902,
+    "bond_bond": 0.0398174284491688,
+    "bond_angle": 0.039018710842356086,
+    "torsion": 0.06252152239903808,
+    "middle_bond_torsion": 0.06253333110362291,
+    "end_bond_torsion": 0.06319274520501494,
+    "angle_torsion": 0.0631565204821527,
+    "angle_angle_torsion": 0.06347664352506399,
+    "bond_bond_13": 0.062356177484616644,
+    "wilson": 0.023009628523141146,
+    "angle_angle": 0.036005086498335004,
+    "lj_9_6": 0.2297510178759694,
+    "coulomb": 0.31263738544657826,
+    "coulomb direct space": 0.21224977541714907,
+    "coulomb reciprocal space": 0.1809672403614968,
+    "all bonded": 0.32982791122049093,
+    "all": 0.7163680049125105,
+    "no forces": 0.013113245833665133
+  },
+  "md_nve_ms_per_step": 0.7338892776519059,
+  "md_step_minus_all_evaluation_ms": 0.01752127273939541
+}

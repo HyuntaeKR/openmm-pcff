@@ -1,0 +1,40 @@
+{
+  "lammps pppm/kk 0.001": {
+    "length_ps": 20.0,
+    "drift_kcal_mol_ns": -291.7677374713612,
+    "drift_kt_per_ns_per_dof": -0.003260977331897109,
+    "fluctuation_about_fit_kcal_mol": 19.521390445027052,
+    "end_minus_start_kcal_mol": 3.9998894760210533,
+    "wall_seconds": 253.04537334572524
+  },
+  "openmm cuda mixed pme 0.02": {
+    "length_ps": 100.0,
+    "drift_kcal_mol_ns": -29.749668105927793,
+    "drift_kt_per_ns_per_dof": -0.00033250075613454474,
+    "fluctuation_about_fit_kcal_mol": 17.653118149222575,
+    "end_minus_start_kcal_mol": -5.92628777702339,
+    "wall_seconds": 76.65479691512883
+  },
+  "openmm cuda mixed pme 0.02 (first 20 ps)": {
+    "length_ps": 20.0,
+    "drift_kcal_mol_ns": -915.3728907289919,
+    "drift_kt_per_ns_per_dof": -0.010230775591469805,
+    "fluctuation_about_fit_kcal_mol": 18.10621292917551,
+    "end_minus_start_kcal_mol": -2.7266412903554738
+  },
+  "openmm cuda mixed pme 0.0005": {
+    "length_ps": 100.0,
+    "drift_kcal_mol_ns": -76.11426147438206,
+    "drift_kt_per_ns_per_dof": -0.0008507002297552256,
+    "fluctuation_about_fit_kcal_mol": 4.882118226021601,
+    "end_minus_start_kcal_mol": -15.071939870307688,
+    "wall_seconds": 73.46723923832178
+  },
+  "openmm cuda mixed pme 0.0005 (first 20 ps)": {
+    "length_ps": 20.0,
+    "drift_kcal_mol_ns": -184.40847925358554,
+    "drift_kt_per_ns_per_dof": -0.002061063625016413,
+    "fluctuation_about_fit_kcal_mol": 4.564091208825565,
+    "end_minus_start_kcal_mol": 5.117380757321371
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "layout": "merged",
+  "ewald_error_tolerance": 0.0005,
+  "pme_alpha_per_nm_and_grid": [
+    2.7665904051352275,
+    70,
+    70,
+    70
+  ],
+  "n_evaluations": 2000,
+  "ms_per_evaluation": {
+    "ebond": 0.03011991363018751,
+    "eangle": 0.042944557033479214,
+    "edihed": 0.09063690761104226,
+    "eimp": 0.03406648081727326,
+    "evdwl": 0.20373945287428796,
+    "ecoul+elong": 0.26802105316892266,
+    "coulomb direct space": 0.2037375825457275,
+    "coulomb reciprocal space": 0.13193878205493093,
+    "all bonded": 0.11146712931804359,
+    "all": 0.43319614860229194,
+    "no forces": 0.013089627493172884
+  },
+  "md_nve_ms_per_step": 0.4487336420454085,
+  "md_step_minus_all_evaluation_ms": 0.015537493443116557
+}

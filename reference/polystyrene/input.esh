@@ -1,0 +1,45 @@
+# EMC chemistry file, written by scripts/make_emc_reference.py (reference: EMC typing and parameters).
+#
+# Prepare (from this directory):
+#   emc.pl input.esh                              -> build.emc
+#   emc_linux_x86_64 build.emc                    -> polystyrene.data, polystyrene.params
+#
+# Notes:
+# - Columns are separated by tabs (EMC manual, Sec. 4.5.2).
+# - No field_location: EMC uses its own PCFF files (EMC_ROOT/field/cff/pcff, the default field location).
+# - Oligomer, 10 repeat units *CC(c1ccccc1)*, 8 chains.
+
+ITEM	OPTIONS
+
+project	polystyrene
+seed	2026
+
+replace	true
+build_dir	.
+field	pcff
+field_id	pcff
+density	0.5
+ntotal	1344
+
+ITEM	END
+
+ITEM	GROUPS
+
+repeat	*CC(c1ccccc1)*	1	repeat:2
+head	*C	1	repeat:1
+tail	*C	1	repeat:2
+
+ITEM	END
+
+ITEM	CLUSTERS
+
+poly	alternate	1
+
+ITEM	END
+
+ITEM	POLYMERS
+
+poly
+1	repeat	10	head	1	tail	1
+
+ITEM	END

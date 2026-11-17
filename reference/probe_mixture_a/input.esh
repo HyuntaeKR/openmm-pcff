@@ -1,0 +1,84 @@
+# EMC chemistry file, written by scripts/make_emc_reference.py (reference: EMC typing and parameters).
+#
+# Prepare (from this directory):
+#   emc.pl input.esh                              -> build.emc
+#   emc_linux_x86_64 build.emc                    -> probe_mixture_a.data, probe_mixture_a.params
+#
+# Notes:
+# - Columns are separated by tabs (EMC manual, Sec. 4.5.2).
+# - No field_location: EMC uses its own PCFF files (EMC_ROOT/field/cff/pcff, the default field location).
+# - Mixture of many small molecules with equal mole fractions, used to compare typing and parameter lookup (including automatic parameters) with EMC.
+
+ITEM	OPTIONS
+
+project	probe_mixture_a
+seed	2026
+
+replace	true
+build_dir	.
+field	pcff
+field_id	pcff
+density	0.5
+ntotal	1500
+
+ITEM	END
+
+ITEM	GROUPS
+
+bromobenzene	Brc1ccccc1
+fluorobenzene	Fc1ccccc1
+benzonitrile	N#Cc1ccccc1
+propionitrile	CCC#N
+chloroethane	CCCl
+dichloromethane	ClCCl
+chloroform	ClC(Cl)Cl
+fluoroethane	CCF
+methanethiol	CS
+dimethylsulfide	CSC
+thiophene	c1ccsc1
+furan	c1ccoc1
+pyridine	c1ccncc1
+phenol	Oc1ccccc1
+anisole	COc1ccccc1
+benzaldehyde	O=Cc1ccccc1
+acetophenone	CC(=O)c1ccccc1
+styrene	C=Cc1ccccc1
+acrylonitrile	C=CC#N
+vinylchloride	C=CCl
+tetramethylsilane	C[Si](C)(C)C
+phenylsilane	C[Si](C)(C)c1ccccc1
+methylvinylether	C=COC
+aniline	Nc1ccccc1
+ethylamine	CCN
+
+ITEM	END
+
+ITEM	CLUSTERS
+
+bromobenzene	bromobenzene	1
+fluorobenzene	fluorobenzene	1
+benzonitrile	benzonitrile	1
+propionitrile	propionitrile	1
+chloroethane	chloroethane	1
+dichloromethane	dichloromethane	1
+chloroform	chloroform	1
+fluoroethane	fluoroethane	1
+methanethiol	methanethiol	1
+dimethylsulfide	dimethylsulfide	1
+thiophene	thiophene	1
+furan	furan	1
+pyridine	pyridine	1
+phenol	phenol	1
+anisole	anisole	1
+benzaldehyde	benzaldehyde	1
+acetophenone	acetophenone	1
+styrene	styrene	1
+acrylonitrile	acrylonitrile	1
+vinylchloride	vinylchloride	1
+tetramethylsilane	tetramethylsilane	1
+phenylsilane	phenylsilane	1
+methylvinylether	methylvinylether	1
+aniline	aniline	1
+ethylamine	ethylamine	1
+
+ITEM	END

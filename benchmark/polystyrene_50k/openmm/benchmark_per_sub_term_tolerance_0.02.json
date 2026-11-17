@@ -1,0 +1,43 @@
+{
+  "platform": "CUDA",
+  "precision": "mixed",
+  "ewald_error_tolerance": 0.02,
+  "openmm_version": "8.6.1",
+  "md": {
+    "nve": {
+      "n_steps": 42261,
+      "seconds": 30.015387075953186,
+      "ns_per_day": 121.6492857733385,
+      "ms_per_step": 0.710238448592158
+    },
+    "nvt": {
+      "n_steps": 36445,
+      "seconds": 29.98662431212142,
+      "ns_per_day": 105.00841866108779,
+      "ms_per_step": 0.8227911733330064
+    },
+    "npt": {
+      "n_steps": 34063,
+      "seconds": 29.83034890703857,
+      "ns_per_day": 98.65936228810182,
+      "ms_per_step": 0.8757405075019397
+    }
+  },
+  "force_evaluation_ms": {
+    "bond": 0.2204862516373396,
+    "angle": 0.2356189489364624,
+    "bond_bond": 0.23543854244053364,
+    "bond_angle": 0.23504165932536125,
+    "torsion": 0.26089802384376526,
+    "middle_bond_torsion": 0.2607562020421028,
+    "end_bond_torsion": 0.26164934039115906,
+    "angle_torsion": 0.26055771857500076,
+    "angle_angle_torsion": 0.26051304303109646,
+    "bond_bond_13": 0.2603437751531601,
+    "wilson": 0.21985274739563465,
+    "angle_angle": 0.22931544110178947,
+    "lj_9_6": 0.42671142145991325,
+    "coulomb": 0.5682285409420729,
+    "all groups": 0.9654703736305237
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "n_steps": 5000,
+  "speed": {
+    "pppm_cg_nve": {
+      "ns_per_day": 4.804,
+      "loop_seconds": 89.9304,
+      "breakdown_seconds": {
+        "Pair": 0.47849,
+        "Bond": 49.067,
+        "Kspace": 32.627,
+        "Neigh": 2.6451,
+        "Comm": 1.9816,
+        "Output": 0.00056626,
+        "Modify": 2.9797,
+        "Other": 0.1508
+      }
+    },
+    "pppm_cg_nvt": {
+      "ns_per_day": 4.807,
+      "loop_seconds": 89.8596,
+      "breakdown_seconds": {
+        "Pair": 0.48115,
+        "Bond": 48.868,
+        "Kspace": 32.613,
+        "Neigh": 2.5749,
+        "Comm": 1.9221,
+        "Output": 0.00053249,
+        "Modify": 3.2685,
+        "Other": 0.1314
+      }
+    },
+    "pppm_cg_npt": {
+      "ns_per_day": 3.919,
+      "loop_seconds": 110.235,
+      "breakdown_seconds": {
+        "Pair": 55.217,
+        "Bond": 14.488,
+        "Kspace": 32.477,
+        "Neigh": 2.0841,
+        "Comm": 2.0632,
+        "Output": 0.00053069,
+        "Modify": 3.7907,
+        "Other": 0.1141
+      }
+    },
+    "pppm_nve": {
+      "ns_per_day": 7.568,
+      "loop_seconds": 57.0862,
+      "breakdown_seconds": {
+        "Pair": 0.11674,
+        "Bond": 47.718,
+        "Kspace": 5.612,
+        "Neigh": 2.6339,
+        "Comm": 0.14864,
+        "Output": 0.00066132,
+        "Modify": 0.67128,
+        "Other": 0.1848
+      }
+    },
+    "pppm_nvt": {
+      "ns_per_day": 7.532,
+      "loop_seconds": 57.3557,
+      "breakdown_seconds": {
+        "Pair": 0.11767,
+        "Bond": 47.772,
+        "Kspace": 5.6137,
+        "Neigh": 2.5712,
+        "Comm": 0.14576,
+        "Output": 0.00065119,
+        "Modify": 0.97208,
+        "Other": 0.1621
+      }
+    },
+    "pppm_npt": {
+      "ns_per_day": 5.923,
+      "loop_seconds": 72.9326,
+      "breakdown_seconds": {
+        "Pair": 54.925,
+        "Bond": 8.8472,
+        "Kspace": 5.2518,
+        "Neigh": 2.0374,
+        "Comm": 0.1499,
+        "Output": 0.00057674,
+        "Modify": 1.5117,
+        "Other": 0.2086
+      }
+    }
+  },
+  "breakdown": {
+    "pppm_cg_nve_breakdown": {
+      "ns_per_day": 4.569,
+      "loop_seconds": 94.5597,
+      "breakdown_seconds": {
+        "Pair": 40.719,
+        "Bond": 13.267,
+        "Kspace": 32.685,
+        "Neigh": 2.6549,
+        "Comm": 2.0417,
+        "Output": 0.00058141,
+        "Modify": 3.0644,
+        "Other": 0.1271
+      }
+    },
+    "pppm_nve_breakdown": {
+      "ns_per_day": 7.464,
+      "loop_seconds": 57.8788,
+      "breakdown_seconds": {
+        "Pair": 40.485,
+        "Bond": 7.8056,
+        "Kspace": 6.5306,
+        "Neigh": 2.6076,
+        "Comm": 0.20936,
+        "Output": 0.0006975,
+        "Modify": 0.086304,
+        "Other": 0.1536
+      }
+    }
+  }
+}

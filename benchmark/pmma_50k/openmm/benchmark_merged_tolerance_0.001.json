@@ -1,0 +1,36 @@
+{
+  "platform": "CUDA",
+  "precision": "mixed",
+  "layout": "merged",
+  "ewald_error_tolerance": 0.001,
+  "openmm_version": "8.6.1",
+  "md": {
+    "nve": {
+      "n_steps": 68295,
+      "seconds": 30.033280128613114,
+      "ns_per_day": 196.47164661106515,
+      "ms_per_step": 0.4397581100902425
+    },
+    "nvt": {
+      "n_steps": 54929,
+      "seconds": 29.97888438915834,
+      "ns_per_day": 158.3069449280878,
+      "ms_per_step": 0.5457751713877612
+    },
+    "npt": {
+      "n_steps": 50467,
+      "seconds": 29.266017947811633,
+      "ns_per_day": 148.99016353285757,
+      "ms_per_step": 0.5799040550817689
+    }
+  },
+  "force_evaluation_ms": {
+    "ebond": 0.22097202017903328,
+    "eangle": 0.23471299558877945,
+    "edihed": 0.26114359498023987,
+    "eimp": 0.2263552788645029,
+    "evdwl": 0.4212020616978407,
+    "ecoul+elong": 0.47441097907721996,
+    "all groups": 0.6400890368968248
+  }
+}

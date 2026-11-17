@@ -1,0 +1,23 @@
+{
+  "mixed, dt 1 fs (from check_benchmark_nve_drift.py)": {
+    "length_ps": 100.0,
+    "drift_kcal_mol_ns": -76.11426147438206,
+    "drift_kt_per_ns_per_dof": -0.0008507002297552256,
+    "fluctuation_about_fit_kcal_mol": 4.882118226021601,
+    "end_minus_start_kcal_mol": -15.071939870307688,
+    "last_minus_first_block_mean_kcal_mol": -7.464354726136662,
+    "slope_0_to_50_ps_kcal_mol_ns": -158.52142632732995,
+    "slope_50_to_100_ps_kcal_mol_ns": 27.822394960075492
+  },
+  "mixed, dt 0.5 fs": {
+    "length_ps": 100.0,
+    "drift_kcal_mol_ns": -8.245024562363259,
+    "drift_kt_per_ns_per_dof": -9.215151213022852e-05,
+    "fluctuation_about_fit_kcal_mol": 1.3029844311931573,
+    "end_minus_start_kcal_mol": -5.705303562746849,
+    "last_minus_first_block_mean_kcal_mol": -1.0895848025102168,
+    "slope_0_to_50_ps_kcal_mol_ns": -34.131503986390705,
+    "slope_50_to_100_ps_kcal_mol_ns": 7.551112786881775,
+    "wall_seconds": 142.26739842724055
+  }
+}

@@ -1,0 +1,38 @@
+# EMC chemistry file: liquid n-butane reference system for PCFF (LAMMPS vs OpenMM).
+#
+# Prepare (from this directory):
+#   emc.pl input.esh                              -> build.emc, butane.in
+#   emc_linux_x86_64 build.emc 2>&1 | tee build.out  -> butane.data, butane.params, butane.pdb, butane.psf
+#
+# Notes:
+# - Columns are separated by tabs; the EMC manual (Sec. 4.5.2) allows only tabs or commas.
+# - No field_location: EMC uses its own PCFF files (EMC_ROOT/field/cff/pcff, the default field location).
+# - ntotal 1400 = 100 molecules x 14 atoms (C4H10).
+# - density 0.5 g/cc with 100 molecules gives a cubic box of about 26.8 Angstrom, larger than 2 x 9.5 Angstrom cutoff.
+# - Cutoffs, Ewald, and kspace precision are left at emc.pl PCFF defaults (pair 9.5, charge 9.5, pppm/cg 0.001).
+
+ITEM	OPTIONS
+
+project	butane
+seed	2026
+
+replace	true
+build_dir	.
+field	pcff
+field_id	pcff
+density	0.5
+ntotal	1400
+
+ITEM	END
+
+ITEM	GROUPS
+
+butane	CCCC
+
+ITEM	END
+
+ITEM	CLUSTERS
+
+butane	butane	1
+
+ITEM	END
